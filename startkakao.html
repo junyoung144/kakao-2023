@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start KaKao</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+  <body>
+    <div class="startus-bar">
+      <div class="startus-bar__column">
+        <span>No Service</span>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+      </div>
+      <div class="startus-bar__column">
+        <span>10:42</span>
+      </div>
+      <div class="startus-bar__column">
+        <i class="fa-solid fa-lock fa-1s"></i>
+        <span>99%</span>
+        <i class="fa-sharp fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <div class="my-profile">
+      <div class="my-profile__upload">
+        <img src="asset/img/my.png" alt="" />
+        <div class="my-profile__camera">
+          <i class="fa-solid fa-camera"></i>
+        </div>
+      </div>
+    </div>
+    <form id="login-form" action="friends.html">
+      <div class="name-counting">
+        <input
+          required
+          class="start-name"
+          type="name"
+          placeholder="이름을 입력해주세요."
+          id="ord_receiver_memo"
+          name="ord_receiver_memo"
+        />
+        <span class="name-count" id="textLengthCheck">(0/20)</span>
+      </div>
+      <div class="friends-add">
+        <input
+          id="friends-add__check"
+          class="friends-add__check"
+          type="checkbox"
+        />
+        <label for="friends-add__check">주소록 친구 자동추가</label>
+      </div>
+      <input class="friends-add__next" type="submit" value="다음" />
+    </form>
+
+    <div id="no-mobile">
+      <img class="no-mobile__right-icon" src="asset/svg/right-icon.png" />
+      <span>Your screen is too big</span>
+      <img class="no-mobile__left-icon" src="asset/svg/left-icon.png" />
+    </div>
+
+    <script src="js/count.js"></script>
+    <script
+      src="https://kit.fontawesome.com/138a11126e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
