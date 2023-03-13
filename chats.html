@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
+  <body>
+    <div class="startus-bar">
+      <div class="startus-bar__column">
+        <span>No Service</span>
+        <i class="fa-sharp fa-solid fa-wifi"></i>
+      </div>
+      <div class="startus-bar__column">
+        <span>10:42</span>
+      </div>
+      <div class="startus-bar__column">
+        <i class="fa-solid fa-lock fa-1s"></i>
+        <span>99%</span>
+        <i class="fa-sharp fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-sharp fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <header class="top-header">
+      <div class="top-header__opencaht">
+        <h1 class="top-header__title">친구</h1>
+        <a href="open-chats.html">
+          <h1 class="top-header__title top-header__title__on">오픈채팅</h1></a
+        >
+      </div>
+      <div class="top-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-user-plus"></i></span>
+        <span><i class="fa-solid fa-music"></i></span>
+        <a href="setting.html"
+          ><span><i class="fa-solid fa-gear"></i></span
+        ></a>
+        <!-- <span></span> -->
+      </div>
+    </header>
+    <div class="top-container">
+      <div class="top-container__column">
+        <span class="top-container__title"
+          >우리집 강아지 영양은 챙기고 있나요?</span
+        >
+        <span class="top-container__subtitle"
+          >나의 귀여운 강아지를 위해 지금 바로!</span
+        >
+      </div>
+      <div class="top-container__column top-container__img">
+        <img
+          class="top-container__banner-img"
+          src="asset/img/thumb_d_D78B655BD9407B920948D765B9540A47.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <main class="main-screen">
+      <div class="user-box">
+        <a href="chat.html">
+          <div class="friend-user">
+            <div class="friend-user__info">
+              <img src="asset/img/ca.jpg" alt="" />
+              <div class="friend-user__text">
+                <!-- 이름 -->
+                <h4>조칠</h4>
+                <!-- 상태메세지 -->
+                <h6>개발?! 나도 한번 배워볼까?</h6>
+              </div>
+            </div>
+            <div class="friend-user__time">
+              <span>오후 9:42</span>
+              <span>1</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- <div class="user-box">
+        <a href="#">
+          <div class="friend-user">
+            <div class="friend-user__info">
+              <img src="asset/img/friend1.jpg" alt="" />
+              <div class="friend-user__text">
+                <h4>이다인</h4>
+
+                <h6>오늘 점심 먹을래?</h6>
+              </div>
+            </div>
+            <div class="friend-user__time">
+              <span>어제</span>
+              <span>99+</span>
+            </div>
+          </div>
+        </a>
+      </div> -->
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <img
+              class="nav__svg nav__svg__user"
+              src="asset//svg/user icon_off.svg"
+              alt=""
+            />
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <!-- <span class="nav__notifiaction badge">1</span> -->
+            <img
+              class="nav__svg nav__svg__chat"
+              src="asset/svg/chats icon_on.svg"
+              alt=""
+            />
+            <div class="chat-dot">
+              <span>30</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="view.html">
+            <img class="nav__svg" src="asset/svg/eye icon_off.svg" alt="" />
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="shopping.html">
+            <img class="nav__svg" src="asset/svg/cart icon_off.svg" alt="" />
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__more"></div>
+            <img class="nav__svg" src="asset/svg/more icon_off.svg" alt="" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <img class="no-mobile__right-icon" src="asset/svg/right-icon.png" />
+      <span>Your screen is too big</span>
+      <img class="no-mobile__left-icon" src="asset/svg/left-icon.png" />
+    </div>
+
+    <script src="js/count.js"></script>
+    <script
+      src="https://kit.fontawesome.com/138a11126e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
