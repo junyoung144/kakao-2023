@@ -1,0 +1,42 @@
+@import "reset.css";
+@import "variables.css";
+/* components */
+@import "components/startus-bar.css";
+@import "components/welcome-header.css";
+@import "components/top-header.css";
+@import "components/top-container.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/user-chat.css";
+@import "components/icon-row.css";
+@import "components/chat-dot.css";
+
+/* screens */
+@import "screens/number.css";
+@import "screens/login-form.css";
+@import "screens/duplication-notification.css";
+@import "screens/startkakao.css";
+@import "screens/view.css";
+@import "screens/shopping.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat.css";
+@import "screens/no-mobile.css";
+
+body {
+  /* height: 115vh; */
+  /* background-color: antiquewhite; */
+}
+#shopping__screen {
+  height: 115vh;
+}
+#friend__screen {
+  height: 155vh;
+}
+.test-tabs,
+.main-screen {
+  padding: 0px var(--main-space);
+}
+.another-screen {
+  background-color: #f5f5f5;
+}

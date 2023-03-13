@@ -1,0 +1,32 @@
+.chat-dot {
+  background-color: red;
+  padding: 5px 5px;
+  border-radius: 50px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  animation: chatrotation 3s ease-in-out infinite;
+}
+
+@keyframes chatrotation {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotategear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.top-header__icons .fa-gear:hover {
+  animation: rotategear 2s linear infinite;
+}

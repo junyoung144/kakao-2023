@@ -1,0 +1,29 @@
+.number-check {
+  padding: 0 20px;
+}
+.number-check__title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin-bottom: 20px;
+}
+.number-check__title span {
+  margin: 18px 0;
+  font-size: 18px;
+}
+.number-check__title i {
+  color: rgba(0, 0, 0, 0.7);
+}
+.login-form__number {
+  font-size: 18px;
+  border: none;
+  padding: 14px 0;
+  margin-bottom: 25px;
+  background-color: #fefefe;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+.login-form__number:focus {
+  border-color: var(--yellow);
+}

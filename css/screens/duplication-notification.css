@@ -1,0 +1,44 @@
+.duplication-notification {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  align-items: center;
+}
+.duplication-notification img {
+  width: 150px;
+}
+.duplication-notification span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.next-btn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.next-btn button {
+  border: none;
+  background-color: initial;
+}
+
+.next-btn a {
+  padding: 14px 0;
+  margin: 7px 25px;
+  border: none;
+  border-radius: 5px;
+}
+.next-btn a:first-child {
+  background-color: var(--yellow);
+}
+.next-btn a:last-child {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.next-btn a:first-child {
+  /* background-color: aqua; */
+}

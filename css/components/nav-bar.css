@@ -1,0 +1,90 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__notifiaction {
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+  animation: notificationAnmiation 3s ease-in-out infinite;
+}
+.nav__more {
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  position: absolute;
+  left: 35px;
+  bottom: 25px;
+}
+.screen-header__icons_more {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+}
+.nav__svg {
+  width: 25px;
+}
+
+.nav__svg__chat {
+  height: 30px;
+}
+
+.nav__svg__user {
+  width: 23px;
+}
+
+@keyframes notificationAnmiation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(3px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes appearBtnAnmiation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.nav__btn {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: appearBtnAnmiation 0.5s ease-in-out forwards;
+  position: relative;
+}
+.nav__btn:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nav__btn:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.nav__btn:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.nav__btn:last-child {
+  animation-delay: 0.8s;
+}

@@ -1,0 +1,14 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 0 40px 0;
+  text-align: center;
+  align-items: center;
+}
+.welcome-header__title {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.welcome-header__text {
+  color: rgba(0, 0, 0, 0.3);
+}

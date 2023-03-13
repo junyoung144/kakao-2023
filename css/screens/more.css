@@ -1,0 +1,142 @@
+.yellow-box {
+  width: 100%;
+  height: 240px;
+  background-color: #fde500;
+  margin-top: 100px;
+}
+.my-money {
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-money__show {
+  display: flex;
+  align-items: center;
+}
+.my-money__wallet {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.my-money__show i {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.government-document {
+  display: flex;
+  background-color: #fffce0;
+  margin: 0 25px;
+  padding: 15px 15px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.government-document__left i {
+  color: #4674ff;
+  margin-right: 5px;
+}
+.government-document__left span {
+  font-weight: 600;
+}
+.kakao-pay {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+  margin-top: 25px;
+  align-items: center;
+}
+.kakao-pay__left {
+  font-size: 22px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+}
+.kakao-pay__left i {
+  margin-right: 5px;
+}
+.bank-process {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 25px;
+  margin-top: 25px;
+}
+.bank-process__left {
+  display: flex;
+}
+.bank-process__left span {
+  margin: 0 15px;
+}
+
+.middle-icons {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0px 15px; */
+}
+.middle-icons__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+}
+.middle-icons__column i {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+.middle-icons__column span {
+  font-size: 14px;
+  color: #6a6a6a;
+}
+.blue-info {
+  background-color: #4676ff;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.blue-info__title {
+  padding: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.blue-info :hover {
+  animation: rainbow 25s ease-in-out infinite;
+  border-radius: 10px;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: #4676ff;
+    color: #fff;
+  }
+  10% {
+    background-color: red;
+    color: #fff;
+  }
+  20% {
+    background-color: orange;
+    color: #fff;
+  }
+  30% {
+    background-color: yellow;
+    color: #000;
+  }
+  40% {
+    background-color: green;
+    color: #fff;
+  }
+  50% {
+    background-color: darkblue;
+    color: #fff;
+  }
+  60% {
+    background-color: purple;
+    color: #fff;
+  }
+  100% {
+    background-color: #4676ff;
+    color: #fff;
+  }
+}

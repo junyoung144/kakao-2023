@@ -1,0 +1,106 @@
+.top-icons {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.top-icons__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-icons__column i {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+.top-icons__column span {
+  font-size: 14px;
+  color: #6a6a6a;
+}
+.shopping-banner {
+  margin-top: 30px;
+  position: relative;
+}
+.shopping-banner img {
+  width: 100%;
+  padding: 0px;
+}
+.shopping-banner__inside {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+.shopping-banner__inside-event-icon {
+  width: 70px;
+  height: 28px;
+  background-color: #fff;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.shopping-banner__inside-event-icon span {
+  font-weight: 700;
+}
+.shopping-banner__inside-info {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.shopping-banner__inside-info__title {
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.shopping-banner__inside-info__subtitle {
+  font-size: 15px;
+  font-weight: 300;
+}
+.shopping-banner__inside-info :nth-child(2) {
+  margin-bottom: 15px;
+}
+.shopping-banner__inside-icons {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  align-items: center;
+}
+.shopping-banner__inside-pause {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.shopping-banner__inside-list {
+  width: 60px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 2px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 400;
+}
+.shopping-banner__inside-list span {
+  margin-top: 3px;
+}
+.shopping-banner__inside-list i {
+  margin-left: 3px;
+  font-size: 14px;
+}

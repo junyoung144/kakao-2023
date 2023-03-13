@@ -1,0 +1,71 @@
+.my-profile {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+}
+.my-profile img {
+  width: 100px;
+  border-radius: 40px;
+}
+.my-profile__upload {
+  position: relative;
+  display: flex;
+}
+.my-profile__camera {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: -5px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c3c3c3;
+  border-radius: 15px;
+  color: white;
+}
+.name-counting {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.start-name {
+  font-size: 18px;
+  border: none;
+  padding: 14px 0;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+.start-name:focus {
+  border-color: var(--yellow);
+}
+.login-form {
+  position: relative;
+}
+.name-count {
+  position: absolute;
+  right: 25px;
+  font-size: 14px;
+}
+.friends-add {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.friends-add__check {
+  width: 18px;
+  height: 18px;
+}
+.friends-add label {
+  margin-left: 5px;
+}
+.friends-add__next {
+  padding: 14px;
+  border: none;
+  background-color: var(--yellow);
+  font-size: 14px;
+}

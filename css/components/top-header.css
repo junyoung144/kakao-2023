@@ -1,0 +1,65 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 30px var(--top-screen) 15px 20px;
+  margin-top: var(--top-screen);
+  top: 0px;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1;
+}
+.top-header__title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.top-header__icons span {
+  font-size: 18px;
+  margin-left: 14px;
+}
+
+.top-header__opencaht {
+  display: flex;
+  align-items: center;
+}
+.top-header__title__on {
+  color: #999999;
+  font-size: 23px;
+  margin-left: 5px;
+}
+
+.top-header__title__off {
+  color: #999999;
+  font-size: 23px;
+  margin-left: 5px;
+}
+
+.test-tabs {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  left: 0px;
+  top: 95px;
+}
+.container {
+}
+.tabs {
+  display: flex;
+  padding-top: 20px;
+}
+.tabs li {
+  margin-right: 25px;
+}
+.tab-link {
+  color: #999999;
+}
+.current {
+  color: #000;
+  font-weight: 600;
+  padding: 0 0 17px 0;
+  border-bottom: 2px solid #000;
+}
